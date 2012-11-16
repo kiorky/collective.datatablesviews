@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.datatablesviews">
+  <!-- Include direct package dependencies -->
+  <genericsetup:registerProfile
+      name="qi"
+      title="collective Policy QI"
+      directory="profiles/qi"
+      description="Turn a Plone site into the collective QIINFO site."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+    />
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.datatablesviews"
+      directory="profiles/default"
+      description="Install the collective.datatablesviews addon on this plone site."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+    />
+  <genericsetup:registerProfile
+      title="collective.datatablesviews uninstall" 
+      name="uninstall"
+      description="Uninstall the collective.datatablesviews addon on tbis plone site."
+      directory="profiles/uninstall"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      />
+  <genericsetup:importStep
+      name="collective_datatablesviews setupVarious"
+      title="various setup for collective.datatablesviews "
+      description="description"
+      handler="collective.datatablesviews.setuphandlers.setupVarious">
+    <depends name="plone-content"/>
+  </genericsetup:importStep>
+  <!-- migration steps -->
+  <genericsetup:importStep
+      name="collective_datatablesviews setupQi"
+      title="Quick Installer products dependencies setup for collective.datatablesviews"
+      description="description"
+      handler="collective.datatablesviews.setuphandlers.setupQi">
+    <depends name="plone-content"/>
+  </genericsetup:importStep> 
+  <!-- -->
+  <utility factory=".app_config.HiddenProducts" name="collective_datatablesviews.hiddenproducts"/>
+  <utility factory=".app_config.HiddenProfiles" name="collective_datatablesviews.hiddenprofiles"/> 
+  <include package=".upgrades"/>
+</configure> 

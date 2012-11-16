@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="collective.datatablesviews">
+  <!--
+     EXAMPLES:
+    <genericsetup:upgradeStep
+        profile="collective.datatablesviews:default"
+        source="xxx"
+        destination="yyy"
+        title="collective.datatablesviews import CSS"
+        description=""
+        handler=".import_css" />  
+    <genericsetup:upgradeStep
+        profile="collective.datatablesviews:default"
+        source="xxx"
+        destination="yyy"
+        title="collective.datatablesviews import JS"
+        description=""
+        handler=".import_js"/>
+    <genericsetup:upgradeStep
+        profile="collective.datatablesviews:default"
+        source="xxx"
+        destination="yyy"
+        title="collective.datatablesviews Recook resources"
+        description=""
+        handler=".recook_resources" />
+    <genericsetup:upgradeStep
+        profile="collective.datatablesviews:default"
+        source="1000"
+        destination="1001"
+        title="collective.datatablesviews - 1001"
+        description=""
+        handler=".upgrade_1001"
+      />
+  -->
+
+  <!-- vim:set ft=xml: -->
+</configure>

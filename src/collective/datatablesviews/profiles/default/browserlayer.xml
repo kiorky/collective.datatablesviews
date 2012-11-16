@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<layers>
+  <layer name="collective.datatablesviews-theme" interface="collective.datatablesviews.interfaces.IThemeSpecific"/>
+  <layer name="collective.datatablesviews" interface="collective.datatablesviews.interfaces.ILayer"/>
+</layers>
