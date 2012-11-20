@@ -1,8 +1,22 @@
 ==============================
 Introduction
 ==============================
+Datatables views for contents in plone
 
 .. contents::
+
+DESCRIPTION
+=============
+
+We all love datatables.
+
+Goal is to provide views for contents
+
+Currently this module contains :
+
+    - A view for New style collections. 
+      It will gather all chosen metadata columns in a datatable.
+
 
 Credits
 ========

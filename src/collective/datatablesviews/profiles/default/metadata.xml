@@ -6,8 +6,6 @@
       <dependency>profile-collective.datatablesviews:qi</dependency>
   <!-- GenericSetup dependencies -->
       <dependency>profile-collective.js.datatables:default</dependency>
-      <dependency>profile-plone.multilingualbehavior:default</dependency>
-      <dependency>profile-plone.app.dexterity:default</dependency>
       <dependency>profile-collective.js.jqueryui:default</dependency>
  </dependencies>
 </metadata>

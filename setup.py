@@ -45,14 +45,6 @@ setup(
         'z3c.autoinclude',
         'Plone',
         'plone.app.upgrade',
-        # with_ploneproduct_dexterity
-        'plone.directives.dexterity',
-        'plone.directives.form',
-        'collective.dexteritytextindexer',
-        'plone.app.referenceablebehavior',
-        'plone.multilingualbehavior',
-        'z3c.blobfile',
-        'plone.app.dexterity',
         # with_ploneproduct_cjqui
         'collective.js.jqueryui',
         # with_ploneproduct_datatables

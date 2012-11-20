@@ -57,11 +57,6 @@ class CollectiveDatatablesviewsLayer(PloneSandboxLayer):
         # ----------------------------------------------------------------------
         # Import all our python modules required by our packages
         # ---------------------------------------------------------------------
-        #with_ploneproduct_dexterity
-        import plone.multilingualbehavior
-        self.loadZCML('configure.zcml', package=plone.multilingualbehavior)
-        import plone.app.dexterity
-        self.loadZCML('configure.zcml', package=plone.app.dexterity)
         #with_ploneproduct_cjqui
         import collective.js.jqueryui
         self.loadZCML('configure.zcml', package=collective.js.jqueryui)

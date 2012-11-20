@@ -13,12 +13,6 @@
   <!-- Load the ZCML configuration for the collective.datatablesviews package.-->
   <!--with_ploneproduct_datatables -->
   <include package="collective.js.datatables" file="configure.zcml"/>
-  <!--with_ploneproduct_dexterity -->
-  <include package="plone.multilingualbehavior" file="configure.zcml"/>
-  <!--with_ploneproduct_dexterity -->
-  <include package="plone.app.dexterity" file="meta.zcml"/>
-  <!--with_ploneproduct_dexterity -->
-  <include package="plone.app.dexterity" file="configure.zcml"/>
   <!--with_ploneproduct_cjqui -->
   <include package="collective.js.jqueryui" file="configure.zcml"/>
   <five:registerPackage package="." initialize=".initialize" />

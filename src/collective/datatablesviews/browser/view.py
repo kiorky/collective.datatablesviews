@@ -15,14 +15,14 @@ from Acquisition import aq_parent
 from Acquisition import aq_parent
 
 
-class IMyView(interface.Interface):
+class IDatatablesView(interface.Interface):
     """Marker interface"""
 
 
-class MyView(BrowserView):
+class DatatablesView(BrowserView):
     """MY view doc"""
-    interface.implements(IMyView)
-    template = ViewPageTemplateFile('template.pt')
+    interface.implements(IDatatablesView)
+    template = ViewPageTemplateFile('datatables_view.pt')
     def __call__(self, **params):
         """."""
         params = {}

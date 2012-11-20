@@ -24,6 +24,17 @@
         permission="zope2.View"
       />
   -->
+  <include package="plone.app.contentmenu"/> 
+  <browser:page
+      layer="collective.datatablesviews.interfaces.ILayer"
+      for="plone.app.collection.interfaces.ICollection"
+      menu="plone_displayviews"
+      name="datatables_view"
+      title="Datatables view"
+      class=".view.DatatablesView"
+      allowed_interface=".view.IDatatablesView"
+      permission="zope2.View"
+    /> 
 
   <!-- Zope 3 browser resources -->
 

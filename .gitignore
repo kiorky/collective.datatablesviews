@@ -26,3 +26,15 @@ dist
 *.tmp*
 var
 sys
+.minitagecfg/
+minitage.base.cfg
+minitage.buildout.cfg
+minitage.test-4.0.x.cfg
+minitage.test-4.1.x.cfg
+minitage.test-4.2.x.cfg
+minitage.test-4.3.x.cfg
+minitage.travis-4.0.x.cfg
+minitage.travis-4.1.x.cfg
+minitage.travis-4.2.x.cfg
+minitage.travis-4.3.x.cfg
+

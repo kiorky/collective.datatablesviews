@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<object name="Collection" i18n:domain="plone"
+    meta_type="Factory-based Type Information with dynamic views"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+  <property name="global_allow">True</property>
+  <property name="view_methods">
+    <element value="datatables_view"/>
+    <element value="standard_view"/>
+    <element value="summary_view"/>
+    <element value="all_content"/>
+    <element value="tabular_view"/>
+    <element value="thumbnail_view"/>
+  </property>
+</object>                        
