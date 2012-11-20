@@ -17,6 +17,10 @@ Currently this module contains :
     - A view for New style collections. 
       It will gather all chosen metadata columns in a datatable.
 
+REPOSITORY
+==========
+- `github <https://github.com/kiorky/collective.datatablesviews>`_
+
 
 Credits
 ========
