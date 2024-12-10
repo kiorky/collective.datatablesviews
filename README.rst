@@ -3,6 +3,8 @@ Introduction
 ==============================
 Datatables views for contents in plone
 
+**Unmaintained**
+
 .. contents::
 
 DESCRIPTION
